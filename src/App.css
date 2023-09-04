@@ -1,31 +1,5 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+body{
+  background-color: rgb(177, 237, 220);
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +9,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1{
+  text-align: center;
+}
+form{
+  width: 50%;
+  margin: auto;
+  
+}
+input{
+  display:block;
+  border:none;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  margin-top: 10px;
+  width: 100%;
+  background-color: azure;
+  height: 30px;
+}
+input:focus-visible{
+  outline: 0cm; 
+  border:none;
+  border-bottom: 2px solid rgb(52, 105, 250);
+}
+label{
+ display: block;
+ background-color: azure;
+ padding: 30px;
+ margin: 10px;
+ border-radius: 10px;
+}
+.imp{
+  color: red;
+}
+select{
+  display: block;
+  padding: 15px;
+  margin-top: 10px;
+}
+select:focus-visible{
+  outline: 0cm; 
+  border:1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+option{
+  font-size: medium;
+}
+.radio{
+  display:inline;
+  border:none;
+  margin-top: 10px;
+  width: 5%;
+  background-color: azure;
+  height:15px;
+  margin-left: 0;
+
+}
+.rLabel{
+ display: block;
+ background-color: azure;
+ padding: 0px;
+ margin: 0px;
+ border-radius: 0px;
+ text-align: left;
 }
